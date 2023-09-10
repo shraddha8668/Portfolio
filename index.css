@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+body
+{
+	margin: 0px;
+
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Share Tech Mono', monospace;
+	background-color: black;
+
+}
+.navigation-bar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+.myname
+{
+	font-weight: bolder;
+	font-size: 30px;
+	color: #ff0080;
+}
+.mymenu
+{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 'Rufina', serif;
+	letter-spacing: 1px;
+}
+.mymenu:hover
+{
+	color: #ff0080;
+}
+#home
+{
+	margin-top: 70px;
+	width: 100%;
+	height: 500px;
+	background-image: url('https://media0.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47c9pt1vukahcd2tkv6r8rr351v5pokvm2otmd0wid&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 90% 25px;
+}
+.dv
+{
+	
+	z-index: -1;
+
+}
+.info
+{
+	margin-top: 10%;
+	margin-left:5% ;
+	padding-top:30px ;
+	padding-left: 40px;
+
+}
+.hminfo
+{
+	font-size:30px ;
+	color: white;
+}
+.hmname
+{
+	font-size: 45px;
+	font-weight:bolder ;
+	font-family: 'Rufina', serif;
+	color: #ff0080;
+	letter-spacing: 1px;
+}
+.rsmbtn button
+{
+	height: 50px;
+	width: 130px;
+	border: none;
+	border-radius: 10px;
+	margin: 30px;
+	background-color: #ff0080;
+	font-size: 20px;
+	color: white;
+}
+.rsmbtn button:hover
+{
+	transform: scale(1.2);
+	transition-duration: 1s;
+	border: 1px solid #ff0080;
+	background-color: white;
+	color: #ff0080;
+}
+.hd
+{
+	font-size: 35px;
+	color:#003566;
+	font-family: Arial Black;
+	margin-top: 20px;
+	background-color: white;
+	width: 100%;
+
+}
+#about,#skills
+{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+#about table
+{
+	margin-top: 30px;
+
+}
+.co
+{
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: justify;
+	text-indent: 20%;
+	line-height: 36px;
+}
+.myimg
+{
+	border-radius: 100px;
+	width: 200px;
+}
+.myimg:hover
+{
+	transform: scale(1.3);
+	transition-duration: 2s;
+	box-shadow: 0px 0px 10px black;
+}
+#skills
+{
+	background-color: black;
+	margin-top: 30px;
+	height: 500px;
+	color: white;
+}
+#skills table
+{
+	margin-top: 30px;
+}
+.tbl tr td
+{
+	text-align: left;
+	padding-top: 0px;
+}
+.skillshead
+{
+	font-size: 25px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: #ff0080;
+	margin-bottom: 40px;
+	text-decoration: underline 2px solid #ff0080;
+}
+td
+{
+	padding:20px ;
+}
+.tbl tr td p
+{
+	font-size: 24px;
+	margin-top: 20px;
+	color: ;
+	font-weight: bolder;
+}
+.card-text
+{
+	color: ;
+}
+.projectss
+{
+	margin-top: 30px;
+	width: 100%;
+	height: 900px;
+	z-index: -1;
+	
+}
+.card-title
+{
+	font-size: 23px;
+	font-weight: bolder;
+	color: ;
+}
+.card-title:hover
+{
+	color: lightblue ;
+	text-decoration: underline 2px solid lightblue;
+}
+.card-img-top
+{
+	height: 200px;
+}
+.card
+{
+	z-index: -1;
+	width: 500px;
+	height: 400px;
+	background-color: white;
+}
+.con
+{
+	color: white;
+}
+#contact
+{
+	width: 100%;
+	height: 500px;
+}
+.input
+{
+	height: 30px;
+	width: 700px;
+	padding-top: 10px;
+}
+label
+{
+	padding-top: 20px;
+}
+.con table tr td ul li
+{
+	list-style: none;
+	padding-top: 10px;
+}
+.con table tr td form textarea
+{
+	height: 70px;
+}
